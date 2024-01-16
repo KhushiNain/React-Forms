@@ -1,0 +1,41 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Regis-form{
+  display: flex;
+  flex-direction: column;
+
+}
+.Regis-form input{
+  width: 350px;
+  height: 50px;
+  margin: 2% 0;
+  font-size: large;
+  padding-left: 2%;
+}
+.Regis-form button{
+  background-color: green;
+}
+.Regis-form p{
+  color: red;
+}
+h3{
+  color: white;
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 350px;
+  height: 50px;
+  margin: 2% 0;
+  font-size: large;
+  padding-left: 2%;
+}
